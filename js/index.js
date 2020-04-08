@@ -102,5 +102,5 @@ contact[0].children[1].textContent = siteContent.contact.address;
 contact[0].children[2].textContent = siteContent.contact.phone;
 contact[0].children[3].textContent = siteContent.contact.email;
 
-document.querySelectorAll("footer p")[0].textContent =
+document.querySelector("footer p").textContent =
   siteContent.footer.copyright;
